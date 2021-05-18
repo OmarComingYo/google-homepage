@@ -3,11 +3,43 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Google</title>
+        <style>
+            .google-logo {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <div>
-            <!-- After Live Server-->
-            <h1>Hey</h1>
+        <div class="google-logo"> <!-- Block parent element -->
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+        </div>
+        <div class="google-suchbutton">
+            <center>
+                <input 
+                    value="Google Suche"
+                    aria-label="Google Suche"
+                    name="Suche"
+                    type="submit">
+                <div 
+                    role="button"
+                    style="display:none; font-family: arial, sans-serif; overflow: hidden; text-align: center; z-index: 50;">
+                    <div style="left: 0px; position: absolute; right: 0px; white-space: nowrap;"></div>
+                </div>    
+            </center>
+        </div>
+        <div class="google-gutglueck">
+            <center>
+                <input 
+                    value="Auf gut Glück!"
+                    aria-label="Auf gut Glück!"
+                    name="Glueck"
+                    type="submit">
+                <div 
+                    role="button"
+                    style="display:none; font-family: arial, sans-serif; overflow: hidden; text-align: center; z-index: 50;">
+                    <div style="left: 0px; position: absolute; right: 0px; white-space: nowrap;"></div>
+                </div>    
+            </center>
         </div>
     </body>
 </html>
