@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
     <head>
         <meta charset="UTF-8"/>
         <title>Google</title>
@@ -7,15 +8,28 @@
             .google-logo {
                 text-align: center;
             }
+            #button1 {
+                border: 1px solid #f8f9fa;
+                color: #3c4043;
+            }
+            #button2 {
+                border: 1px solid #f8f9fa;
+                color: #3c4043;
+            }
+            #container {
+                text-align: center;
+            }
         </style>
     </head>
+
     <body>
         <div class="google-logo"> <!-- Block parent element -->
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
         </div>
-        <div>
-            <input type="button" value="Google Suche">
-            <input type="button" value="Auf gut Glück!">
-        </div>
+        <div id="container">
+            <button type="Google Suche" id="button1" >Google Suche</button>
+            <button type="Auf gut Glück!" id="button2" >Auf gut Glück!</button>
+        </div>    
     </body>
+
 </html>
