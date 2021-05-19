@@ -11,10 +11,12 @@
             #button1 {
                 border: 1px solid #f8f9fa;
                 color: #3c4043;
+                background-color: #f8f9fa;
             }
             #button2 {
                 border: 1px solid #f8f9fa;
                 color: #3c4043;
+                background-color: #f8f9fa;
             }
             #container {
                 text-align: center;
@@ -22,13 +24,17 @@
         </style>
     </head>
 
-    <body>
-        <div class="google-logo"> <!-- Block parent element -->
+    <body style="background-color: #fff">
+        <div class="google-logo">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
         </div>
         <div id="container">
-            <button type="Google Suche" id="button1" >Google Suche</button>
-            <button type="Auf gut Glück!" id="button2" >Auf gut Glück!</button>
+            <form>
+                <input type="text" name="suche">
+                <br>
+                <button type="Google Suche" id="button1" >Google Suche</button>
+                <button type="Auf gut Glück!" id="button2" >Auf gut Glück!</button>
+            </form>    
         </div>    
     </body>
 
