@@ -26,6 +26,21 @@
             .google-logo {
                 text-align: center;
             }
+            input[type=text] {
+               -webkit-border-radius: 20%;
+               -moz-border-radius: 20px;
+                border-radius: 20px;
+                border: 1px solid lightgrey;
+                color: lightgrey;
+                width: 250px;
+                height: 30px;
+                padding-left: 10px;
+            }
+            input[type=text]:focus {
+                outline: none;
+                border: 1px solid lightgrey;
+                color: lightgrey;
+            }
             #button1 {
                 border: 1px solid #f8f9fa;
                 color: #3c4043;
@@ -72,10 +87,14 @@
         </div>
         <div id="container">
             <form>
-                <input type="text" name="suche">
-                <br><br>
-                <button type="Google Suche" id="button1" >Google Suche</button>
-                <button type="Auf gut Glück!" id="button2" >Auf gut Glück!</button>
+                <div>
+                    <input type="text" name="suche">
+                </div>
+                <br>
+                <div>
+                    <button type="Google Suche" id="button1" >Google Suche</button>
+                    <button type="Auf gut Glück!" id="button2" >Auf gut Glück!</button>
+                </div>
             </form>    
         </div>    
     </body>
