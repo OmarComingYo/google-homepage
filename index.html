@@ -54,6 +54,21 @@
             #container {
                 text-align: center;
             }
+            .suchfeld {
+                position: relative;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                border: grey;
+                background-color: rgb(255, 255, 255);
+                display: block;
+                box-sizing: border-box;
+            }
+            .suchfeld img {
+                position: relative;
+                top: 8px;
+                left: 35px;
+            }
             .floatleft {
                 float: left;
             }
@@ -87,13 +102,17 @@
         </div>
         <div id="container">
             <form>
-                <div>
+                <div class="suchfeld">
+                    <img src="magnifier.png" width="25" />
                     <input type="text" name="suche">
                 </div>
                 <br>
                 <div>
                     <button type="Google Suche" id="button1" >Google Suche</button>
                     <button type="Auf gut Glück!" id="button2" >Auf gut Glück!</button>
+                </div>
+                <div>
+                    <p>Google angeboten auf: <a href="https://www.google.com/setprefs?sig=0_rpibQg4kMel22Fq_2klRIsbHI-c%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwiXqPbEx9rwAhVdA2MBHeRxDecQ2ZgBCA8">English</a></p>
                 </div>
             </form>    
         </div>    
